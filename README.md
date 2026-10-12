@@ -13,3 +13,6 @@ This project applies Bayesian statistical modeling to analyze customer churn beh
 ## Tech Stack & Libraries
 - **Language:** R, Stan (`cmdstanr`)
 - **Packages:** `bayesplot`, `posterior`, `ggdist`, `tidyverse`, `loo`, `bridgesampling`
+## Model Results & Visualizations
+
+![Posterior Distributions of Theta](Postrerios Dist.png)
