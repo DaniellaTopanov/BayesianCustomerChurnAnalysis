@@ -7,6 +7,7 @@ This project applies Bayesian statistical modeling to analyze customer churn beh
 ## Key Methods & Workflow
 - **Model Specification:** Built a Beta-Bernoulli model in Stan estimating churn probabilities ($\theta$) across different customer segments.
 - **Posterior Inference & Diagnostics:** Ran MCMC sampling via `cmdstanr` (4 chains, 2000 iterations), verified convergence using Rhat and Effective Sample Size (ESS), and analyzed Highest Density Intervals (HDI) and ROPE.
+  ![Posterior Distributions of Theta](Postrerior Dist.png)
 - **Posterior Predictive Checks (PPC & PPD):** Simulated new customer data to validate model fit against observed churn counts.
 - **Model Comparison:** Compared single-parameter and grouped models using Leave-One-Out Cross-Validation (LOO-CV) and bridge sampling (Bayes Factors).
 
